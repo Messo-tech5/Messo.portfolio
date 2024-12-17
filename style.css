@@ -23,12 +23,12 @@ header nav a:hover {
 }
 
 li{
-    float: left;
+    float: right;
 }
 li a{
    display: block;
     padding: 8px;
-   background-color: #dddddd;
+   background-color: black;
 }
 section {
     padding: 20px;
@@ -44,4 +44,15 @@ footer {
     padding: 10px;
     background-color: #333;
     color: white;
+}
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        margin: 1rem;
+        padding: 1rem;
+    }
 }
