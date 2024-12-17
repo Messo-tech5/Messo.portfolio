@@ -1,8 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        @keyframes typing {
+            from{width: 0;}
+            to {width: 100%}
+        }
+        @keyframes blink{
+          50%{border-color: transparent;}  
+        }
+       .typewriter {
+           fontsize: 2em;
+           font-family: monospace;
+           white-space: nowrap;
+           overflow: hidden;
+          border-right: 3px solid black;
+           width: 0;
+           animation: typing 4s steps(30 end) forwards, blink is indinite;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -29,7 +48,7 @@
 
     <section id="skills">
         <h2>Skills</h2>
-      <p><small>I am currently having strong experience in the following areas.</small></p>
+      <p class="typewriter"><small>I am currently having strong experience in the following areas.</small></p>
         <ul>
             <li>HTML</li>
             <li>css</li>
@@ -51,7 +70,8 @@
 
     <footer>
     
-        <p><small><br>@messojames<tt>+254705177978</tt></small></small></p>
+        <p><small><br>
+            <a href="messojames303@gmail.com">messojames303@gmail.com</a><tt>+254705177978</tt></small></small></p>
     </footer>
 </body>
 </html>
