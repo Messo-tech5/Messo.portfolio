@@ -1,7 +1,7 @@
 *{
-    margin: 40%;
+    margin: 5px;
     padding: 0;
-    box-sizing: border-box;
+    
 }
 
 body {
@@ -60,7 +60,7 @@ form button {
 }
 footer {
     text-align: center;
-    padding: 5p ;
+    padding: 5pt;
     background: #333;
     color: #fff;
     margin-top: 20px;
