@@ -1,6 +1,6 @@
 
 body {
-    margin: 0;
+    margin: 25px;
     font-family: Arial, sans-serif;
 }
 
@@ -22,10 +22,10 @@ header nav a:hover {
     text-decoration: underline;
 }
 
-li{
+ul li{
     float: right;
 }
-li a{
+ul li a{
    display: block;
     padding: 8px;
    background-color: black;
@@ -52,7 +52,7 @@ footer {
     }
 
     section {
-        margin: 1rem;
-        padding: 1rem;
+        margin: 5px;
+        padding: 10px;
     }
 }
