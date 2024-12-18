@@ -15,11 +15,58 @@
            font-weight: bold;
            animation: colorChange 5s infinite;
         }
+        .dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
     </style>
 </head>
 <body>
     <header>
-        <h1>WELCOME</h1>
+        <p>Send me a message on watsapp @+254705177978</p>
+        <div class="dropdown">
+  <button class="dropbtn">menu</button>
+  <div class="dropdown-content">
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#contacts">Contacts</a>
+  </div>
+        </div>
         <nav>
             <ul>
                 
@@ -32,17 +79,17 @@
 
     <section id="about">
         <h2>About Me</h2>
-        <p>Hello there. I am Messo James, a Web developer with experience in <br>
-        <b>css, html and java language</b>. I enjoy creating visually appealing and user<br>
-        friendly websites. I am looking forward to learn more about <strong>javascrpt</strong><br>
-        and be able to develop websites with more appealing outlook. I am currentlya specified<br>
+        <p>Hello there. I am Messo James, a Web developer with experience in
+        <b>css, html and java language</b>. I enjoy creating visually appealing and user
+        friendly websites. I am looking forward to learn more about <strong>javascrpt</strong>
+        and be able to develop websites with more appealing outlook. I am currentlya specified
         fronted as I am willing to be skilled developer in fronted and backend.</p><br>
-        <img src="20241212_125846.jpg" alt="Good boy">
+        <img src="20241212_125846.jpg">
     </section>
 
     <section id="skills">
         <h2>Skills</h2>
-      <p class="color-text"><small>I am currently having strong experience in the following areas.</small></p><br>
+      <p class="color-text"><small>I am currently having strong experience in the following areas.</small></p>
         <ol style="text-align: left">
             <li>HTML</li><br>
             <li>css</li>
@@ -51,7 +98,7 @@
  
 
     <section id="contact">
-        <h2>Contact</h2>
+        <h2>Contact Me</h2>
         <form>
             <label>Name:</label>
             <input type="text" name="username" required><br>
@@ -64,9 +111,11 @@
     </section>
 
     <footer>
-    
-        <p><small><br>
-            <a href="messojames303@gmail.com">messojames303@gmail.com  </a><tt>+254705177978</tt></small></small></p>
+        <p>For more information; Reach out to:</p>
+        <p><small><br><tt>Phone no:+254705177978</tt></small></small></p>
+        <p>Email: messojames767@gmail.com </p>
+        <p>IYF undergraduate </p>
+        <p>© 2024. Ready to serve.</p>
     </footer>
 </body>
 </html>
